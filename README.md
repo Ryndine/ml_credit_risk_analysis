@@ -1,2 +1,3 @@
-# credit_risk_analysis
-machine learning
+# Credit Risk Analysis
+machine learning  
+readme wip
