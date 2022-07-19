@@ -73,6 +73,4 @@ This resampling performed similarly to SMOTE and Naive oersamples with an accura
 
 ## Verdict
 
-After creating 6 different models in order to predict credit risk it seems that Easy Ensemble AdaBoost Classifier is the best model to use for our dataset.
-
-It has a high recall and high precision score which means it's picky but very accurate. The accuracy score reflects that with a great score of .93.
+After creating 6 different models in order to predict credit risk it seems that Easy Ensemble AdaBoost Classifier is the best model to use for our dataset. It has a high recall and high precision score which means it's picky but very accurate. The accuracy score reflects that with a great score of .93.
