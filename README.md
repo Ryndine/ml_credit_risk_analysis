@@ -39,7 +39,7 @@ loan_stats_df.reset_index(inplace=True, drop=True)
 ## Analysis
 
 **Train & Test**  
-Next I want to plug the data into training and testing data.
+Now I want to plug the data into training and testing data.
 ```
 X = loan_stats_df.drop(columns='loan_status')
 X = pd.get_dummies(X)
