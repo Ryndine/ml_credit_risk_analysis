@@ -38,7 +38,7 @@ loan_stats_df.reset_index(inplace=True, drop=True)
 
 ## Analysis
 
-**Train & Test**
+**Train & Test**  
 Next I want to plug the data into training and testing data.
 ```
 X = loan_stats_df.drop(columns='loan_status')
@@ -47,27 +47,27 @@ y = loan_stats_df.loc[:, target].copy()
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 ```
 
-**Balanced Forest Classifier**
+**Balanced Forest Classifier**  
 For the balanced forest model I ended up with an accuracy score of .78
 ![bfc_accuracy](/Resources/Images/bfc_accuracy.jpg)
 
-**Easy Ensemble AdaBoost Classifier**
+**Easy Ensemble AdaBoost Classifier**  
 Using AdaBoost I saw great improvement with an accuracy score of .93
 ![adaboost_accuracy](/Resources/Images/adaboost_accuracy.jpg)
 
-**Naive Random Oversampling**
+**Naive Random Oversampling**  
 With Naive Random Oversampling I saw a decrease in accuracy with a score of .64
 ![oversample_accuracy](/Resources/Images/oversample_accuracy.jpg)
 
-**SMOTE**
+**SMOTE**  
 SMOTE oversample received a similar accuracy score as Naive Random at .66
 ![smote_accuracy](/Resources/Images/smote_accuracy.jpg)
 
-**Custer Centroid**
+**Custer Centroid**  
 The worst performing model so far with an accuracy score of .52
 ![ccentroid_accuracy](/Resources/Images/ccentroid_accuracy.jpg)
 
-**SMOTEENN**
+**SMOTEENN**  
 This resampling performed similarly to SMOTE and Naive oersamples with an accuracy of .63
 ![smoteenn_accuracy](/Resources/Images/smoteenn_accuracy.jpg)
 
