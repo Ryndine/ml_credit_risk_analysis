@@ -1,7 +1,7 @@
 # Supervised - Credit Risk Analysis
 
 ## Objective: 
-Implement supervised machine learning on credit data to evaluate whether or not an issued loan would be considered "High Risk" or "Low Risk".
+Implement supervised machine learning on user credit data to train a model which can accurately predict whether a loan would be "High Risk" or "Low Risk".
 
 ## Tools & databases used:
 - Python, Sci-kit Learn, Imbalanced Learn
