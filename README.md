@@ -1,4 +1,4 @@
-# Credit Risk Analysis
+# Supervised - Credit Risk Analysis
 
 ## Objective: 
 Implement machine learning models using resampling and ensemble to address class imbalance, and evaluate the performance of different machine learning models.
