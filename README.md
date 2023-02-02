@@ -4,7 +4,10 @@
 Implement supervised machine learning on user credit data to train a model which can accurately predict whether a loan would be "High Risk" or "Low Risk".
 
 ## Tools & databases used:
-- Python, Sci-kit Learn, Imbalanced Learn
+* Python
+* Pandas
+* Scikit-Learn
+* Imbalanced-Learn
 
 ## Exploration & Cleanup
 ```
