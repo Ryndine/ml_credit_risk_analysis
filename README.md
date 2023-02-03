@@ -8,7 +8,6 @@ Implement supervised machine learning on user credit data to train a model which
 * Pandas
 * Scikit-Learn
 * Imbalanced-Learn
-* Matplotlib
 
 ## Exploration & Cleanup
 ```
