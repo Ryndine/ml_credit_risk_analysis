@@ -60,13 +60,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
 With my features and target set, I'm good to test/test the data.
 
 ## Machine Learning: Quick Summary
-**Accuracy:** Number of predictions that were made correct.
-**Sensitivity (Recall):** The "True Positive Rate", a fraction of the real "true" values that were correctly put into the right bin.
-**Specitivity:** The "True Negative Rate", opposite of Sensitivity and only cares of the "False" cases.
-**Precision:** Of all of values what fraction of the predictions were correct.
-**F1 Score:** The "Harmonic Mean" of recall and precision. Helps give better insight into the performance of imbalanced data.
-**Support:** Tells us how many of each class there were.
-**Confusion Matrix:** Evaluate the performance of the machine learning classification algorithm. [["TP","FP"],["TN","FN"]]
+**Accuracy:** Number of predictions that were made correct.  
+**Sensitivity (Recall):** The "True Positive Rate", a fraction of the real "true" values that were correctly put into the right bin.  
+**Specitivity:** The "True Negative Rate", opposite of Sensitivity and only cares of the "False" cases.  
+**Precision:** Of all of values what fraction of the predictions were correct.  
+**F1 Score:** The "Harmonic Mean" of recall and precision. Helps give better insight into the performance of imbalanced data.  
+**Support:** Tells us how many of each class there were.  
+**Confusion Matrix:** Evaluate the performance of the machine learning classification algorithm. [["TP","FP"],["TN","FN"]]  
 
 ## Machine Learning: Undersampling
 Since the data here is so heavily imbalanced I'll be passing it through a series of balancing methods.
